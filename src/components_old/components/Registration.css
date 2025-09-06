@@ -1,0 +1,47 @@
+.logo {
+    height: 7em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  
+  .reg {
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    padding: 0 2em;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .h1_reg{
+  color: rgb(10, 80, 76);
+  }
+  
+  .Registration{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  }
+  
+  .Registration input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 0.5px solid rgb(184, 184, 184);
+    font-family: FontAwesome;
+  
+  }
+  .reg input[type="checkbox"]{
+    margin-top: 8px;
+    width: 30px;
+    height: 17px;
+  }
+  .reg button{
+    background: rgb(82, 196, 235);
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+    border-color: white;
+  }

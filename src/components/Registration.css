@@ -1,0 +1,61 @@
+.logo {
+    height: 7em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  
+  .reg {
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    min-height: 70vh;
+    min-width: 70vh; 
+    padding: 0 3em 3em;
+    background:linear-gradient(350deg, #00A5B4, #0186A8);;
+    border-radius: 10px;
+  }
+  .inside_reg{
+    min-width: 60%;
+    display: flex;
+    flex-direction:column ;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: white;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  .h1_reg{
+  color: #13475B;
+  }
+  
+  .Registration{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  }
+  
+  .Registration input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 0.5px solid rgb(184, 184, 184);
+    font-family: FontAwesome;
+  
+  }
+  .reg input[type="checkbox"]{
+    margin-top: 8px;
+    width: 30px;
+    height: 17px;
+  }
+  .reg button{
+    background:linear-gradient(350deg, #00A5B4, #0186A8);;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+    border-color: transparent;
+  }
+
+  

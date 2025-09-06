@@ -1,0 +1,102 @@
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction:column ;
+  min-height: 70vh;
+  min-width: 70vh; 
+  padding: 0 3em 3em;
+  background:linear-gradient(350deg, #00A5B4, #0186A8);;
+  border-radius: 10px;
+}
+
+.small_nav{
+  color: white;
+  text-align: center;
+}
+
+.login_inside{
+  display: flex;
+  flex:1;
+  
+}
+.login_side{
+  color: white;
+  flex:2;
+  padding: 0 20px;
+}
+
+.second_logo{
+  width: 70%;
+}
+.Log {
+    background: #fff;
+    padding: 80px 20px 20px;
+    margin: 0 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    flex:1;     
+  }
+  
+  .Log input[type="email"],
+  .Log input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: white;
+  }
+  
+  .Log input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .Log button {
+    background: linear-gradient(to right, #0188A9, #01A1B2);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .Log button:hover {
+    opacity: 0.9;
+  }
+  
+  .Log label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .Log input[type="checkbox"] {
+    accent-color: #007bff; /* blue color like login button */
+    cursor: pointer;
+  }
+  
+  .oneline{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+
+  

@@ -1,0 +1,51 @@
+#nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.srimg{
+    width: 200px;
+    height: 70px;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+nav ul li {
+    padding: 20px;
+    float: right;
+  }
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+  }
+  
+nav ul li a:hover {
+    background-color: #82caff;
+  }
+nav select {
+    margin-top: 25px;
+    padding: 4px 8px;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    outline: none;
+  }
+
+select option{
+    color:black;
+    opacity:0;
+}
