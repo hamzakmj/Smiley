@@ -16,8 +16,8 @@ function App() {
 
       {/* Routes */}
       <Routes>
-        <Route path="/Registration" element={<Registration />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path="/components/Registration" element={<Registration />} />
+        <Route path="/components/Login" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
